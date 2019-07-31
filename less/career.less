@@ -1,0 +1,141 @@
+@import "basic";
+.career{
+	#content{
+		.content{
+			hr{
+				    margin:100px 0;
+				   	border: 0.5px solid #eae8e8;
+			}
+			.header{
+				&.black.career-header{
+					background:#f5f5f5;
+					padding: 50px 0;
+				}
+					.title{
+						color:black;
+    					padding-left: 40px;
+						font-size: 12px;
+					}
+					#breadcrumbs.transparent{
+						background: transparent;
+						ul li{
+							color: black;
+							letter-spacing: 1px;
+						}
+					}		
+			}/*header*/
+			
+		
+			.career-continer{
+				
+				h3.title{
+						padding-top: 100px;
+					    font-size: 18px;
+   	 					letter-spacing: 1px;
+    					font-weight: normal;
+				}
+					.subtitle{
+						font-size: 10px;
+    					margin: 0;
+						}
+				.case{
+					text-align: center;
+					padding: 0px;
+					
+					.box{
+						border: 0.1px solid #f5f5f5;
+						margin: 15px 30px;
+   	 					padding: 30px 25px;
+   	 						p{
+   	 						    margin: 20px;
+   	 						}
+					}
+					i{
+						font-size:50px;
+						padding-bottom: 30px;
+    					display: inline-block;
+
+					}
+					
+						a.link-icon {
+							font-size: 10px;
+    						text-decoration: none;
+    						color: #e5e5e5;
+    						transition: 0.2s linear all;
+    						&:hover{
+            					color:@gray-text;
+        					}
+        					i{
+        						font-size:10px;
+        						padding-bottom: 0;
+        					}
+						}
+						
+				}/*case*/	
+		}/*career-continer*/
+		
+			.form{
+				display: block;
+    			width: 1170px;
+    			margin: 0 auto;
+				.intro{
+					h3.title{
+						padding-top: 100px;
+    					font-size: 20px;
+    					letter-spacing: 1px;
+    					font-weight: normal;
+    					margin-bottom:0px;
+					}
+					p{
+    						font-size: 10px;
+   							margin: 0;
+   							color: #7e7e7e;
+   							letter-spacing: 0.5px;
+    					}
+				}
+				input,select{
+					width: 100%;
+    				line-height: normal;
+    				padding: 6px 12px;
+    				border: 1px solid #e5e5e5;
+    				border-radius: 7px;
+				}
+				.col-button{
+					    width: 100%;
+    					display: inline-block;
+    					text-align: center;
+    					padding-bottom: 100px;
+    					.button{
+							    border: 1px solid #f2f2f2;
+    							border-radius: 7px;
+    							padding: 25px 40px;
+    							letter-spacing: 0.5px;
+    							color:white;
+    					}
+    					.gold{
+    						background: @branding-color;
+    						transition: 0.2s linear all;
+    						&:hover{
+								background:black;
+    						}
+
+    					}
+				}
+				.form-case{
+						padding-bottom: 30px;
+					label {
+    					padding: 5px 0;
+    					display: block;
+    					text-transform: capitalize;
+						}
+
+					textarea{
+						width: 525px;
+						border: 1px solid #e5e5e5;
+					}
+				}
+			}/*form*/
+		}/*.content*/
+	}		
+}/*End*/
+
